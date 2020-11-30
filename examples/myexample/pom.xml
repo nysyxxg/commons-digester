@@ -11,7 +11,7 @@
 
     <artifactId>myexample</artifactId>
 
-
+    <name>Apache Commons Digester :: Examples :: myexample</name>
     <dependencies>
 
         <dependency>
