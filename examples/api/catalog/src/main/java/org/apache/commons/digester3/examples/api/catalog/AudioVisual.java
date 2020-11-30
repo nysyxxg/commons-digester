@@ -7,77 +7,68 @@ package org.apache.commons.digester3.examples.api.catalog;
  * The ASF licenses this file to You under the Apache License, Version 2.0
  * (the "License"); you may not use this file except in compliance with
  * the License.  You may obtain a copy of the License at
- * 
+ *
  *      http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ 
- 
-/**
- *  See Main.java.
  */
-public class AudioVisual
-    implements Item
-{
 
+/**
+ * See Main.java.
+ */
+public class AudioVisual implements Item {
+    
     private int yearMade;
-
+    
     private String category;
-
+    
     private String name;
-
+    
     private String desc;
-
+    
     private Integer runtime;
-
+    
     private String type;
-
+    
     // note: digester can convert a string in the xml file to an int.
-    public void setYearMade( final int yearMade )
-    {
+    public void setYearMade(final int yearMade) {
         this.yearMade = yearMade;
     }
-
-    public void setCategory( final String category )
-    {
+    
+    public void setCategory(final String category) {
         this.category = category;
     }
-
-    public void setName( final String name )
-    {
+    
+    public void setName(final String name) {
         this.name = name;
     }
-
-    public void setDesc( final String desc )
-    {
+    
+    public void setDesc(final String desc) {
         this.desc = desc;
     }
-
+    
     // note: digester can convert a string in the xml file to an Integer
-    public void setRuntime( final Integer runtime )
-    {
+    public void setRuntime(final Integer runtime) {
         this.runtime = runtime;
     }
-
-    public void setType( final String type )
-    {
+    
+    public void setType(final String type) {
         this.type = type;
     }
-
+    
     @Override
-    public void print()
-    {
-        System.out.println( "AudioVisual:" );
-        System.out.println( "  type=" + type );
-        System.out.println( "  yearMade=" + yearMade );
-        System.out.println( "  category=" + category );
-        System.out.println( "  name=" + name );
-        System.out.println( "  desc=" + desc );
-        System.out.println( "  runtime=" + runtime );
+    public void print() {
+        System.out.println("AudioVisual:");
+        System.out.println("  type=" + type);
+        System.out.println("  yearMade=" + yearMade);
+        System.out.println("  category=" + category);
+        System.out.println("  name=" + name);
+        System.out.println("  desc=" + desc);
+        System.out.println("  runtime=" + runtime);
     }
-
+    
 }

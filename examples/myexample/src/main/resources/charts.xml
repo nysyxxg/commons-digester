@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GBK" ?>
+<charts>
+    <chart id="BarChart1">
+        <legendVisible>false</legendVisible>
+        <type>中国</type>
+        <width>500</width>
+        <description>11</description>
+    </chart>
+
+    <chart id="BarChart2">
+        <legendVisible>true</legendVisible>
+        <type>美国</type>
+        <width>500</width>
+        <description>22</description>
+    </chart>
+</charts>

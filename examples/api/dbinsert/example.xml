@@ -22,11 +22,13 @@
       <column name="colour">green</column>
       <column name="hobby">worrying</column>
     </row>
+
     <row>
       <column name="name">Miss Piggy</column>
       <column name="colour">pink</column>
       <column name="hobby">karate</column>
     </row>
+
   </table>
   
   <table name="things">
